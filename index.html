@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>HAPPEE LASH EMPIRE | Enhance. Beauty. Inspire.</title>
+  <meta name="description"
+    content="Lash sets, refills and lash products by HAPPEE LASH EMPIRE. Choose your look and order on WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/x-icon" href="logo.jpg">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="#top">HAPPEE <b>LASH</b> EMPIRE</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="links" id="links" aria-label="Main">
+        <a href="#services" data-cat="services">Lash Services</a>
+        <a href="#products" data-cat="products">Lash Products</a>
+        <a href="#gallery">Our Work</a>
+        <a href="#about">About</a>
+        <a class="btn btn-pink" href="#" data-wa-general style="min-height:42px;padding:.4rem 1.2rem">Chat Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <div class="brand-line">HAPPEE LASH EMPIRE. <br> (Enhance. Beauty. Inspire)</div>
+          <h1>Your Beauty. Your Lashes. <em>Your Empire.</em></h1>
+          <p>Discover stunning lash styles designed to enhance your natural beauty and elevate every look.</p>
+          <div class="cta-row">
+            <a class="btn btn-pink" href="#services" data-cat="services">Explore Our Collection</a>
+            <a class="btn btn-line" href="#shop" data-cat="all">Shop Now</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="hero.jpg" alt="Beautiful lash look by HAPPEE LASH EMPIRE" width="800" height="600">
+        </div>
+      </div>
+    </section>
+
+    <section id="shop">
+      <div class="wrap">
+        <div class="head">
+          <h2>The Lash Collection</h2>
+          <p>Pick your style, tap Order on WhatsApp, and we’ll take it from there.</p>
+        </div>
+        <div class="tabs" role="group" aria-label="Filter by category">
+          <button class="tab" data-filter="all" aria-pressed="true">All</button>
+          <button class="tab" data-filter="services" aria-pressed="false">Lash Services</button>
+          <button class="tab" data-filter="products" aria-pressed="false">Lash Products</button>
+        </div>
+        <div id="services">
+          <h3 class="cat-title">Lash Services</h3>
+          <div class="grid" id="gridServices"></div>
+        </div>
+        <div id="products">
+          <h3 class="cat-title">Lash Products</h3>
+          <div class="grid" id="gridProducts"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="wrap">
+        <div class="head">
+          <h2>Our Work</h2>
+          <p>Real sets, real confidence. See the looks our clients walk out with.</p>
+        </div>
+        <div class="shots" id="galleryGrid"></div>
+        <div class="cta-row" style="justify-content:center"><a class="btn btn-pink" href="#" data-wa-general>Book Your
+            Set on WhatsApp</a></div>
+        <dialog id="lb" aria-label="Enlarged photo"><img alt=""></dialog>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap">
+        <div class="about-art">
+          <img src="about.jpg" alt="Lash artistry by HAPPEE LASH EMPIRE" width="800" height="800">
+        </div>
+        <div>
+          <h2>Beauty Begins With Confidence.</h2>
+          <p style="margin-top:1.2rem">At HAPPEE LASH EMPIRE, we believe every lash tells a story. Our mission is to
+            help you express your beauty, elevate your confidence and embrace your unique style with stunning lash
+            designs and quality lash products.</p>
+          <div class="cta-row"><a class="btn btn-pink" href="#shop" data-cat="all">Shop Now</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="head">
+          <h2>Why Choose Us</h2>
+        </div>
+        <div class="feats">
+          <div class="feat">
+            <div class="ic">✦</div>
+            <h3>Beautiful Lash Styles</h3>
+            <p>From natural classics to bold mega volume looks.</p>
+          </div>
+          <div class="feat">
+            <div class="ic">♡</div>
+            <h3>Quality Products</h3>
+            <p>Carefully selected lash products for beautiful results.</p>
+          </div>
+          <div class="feat">
+            <div class="ic">★</div>
+            <h3>Style &amp; Confidence</h3>
+            <p>Helping you express your unique beauty.</p>
+          </div>
+          <div class="feat">
+            <div class="ic">✉</div>
+            <h3>Easy Ordering</h3>
+            <p>A simple and convenient WhatsApp ordering experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap">
+        <h2>Ready to Elevate Your Lash Game?</h2>
+        <p>Your next favourite lash look is just one message away.</p>
+        <a class="btn" href="#" data-wa-general>Chat With Us on WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="wrap">
+      <div class="fgrid">
+        <div>
+          <a class="logo" href="#top" style="display:inline-block">HAPPEE <b>LASH</b> EMPIRE</a>
+          <p style="margin:.6rem 0 1rem">Enhance. Beauty. Inspire.</p>
+          <a class="btn btn-wa" href="#" data-wa-general style="max-width:240px">Chat on WhatsApp</a>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <a href="#services" data-cat="services">Lash Services</a>
+          <a href="#products" data-cat="products">Lash Products</a>
+          <a href="#about">About</a>
+        </div>
+        <div>
+          <h3>Find us</h3>
+          <a id="igLink" href="#" target="_blank" rel="noopener">Instagram: @yourhandle</a>
+          <span id="locText">Calabar, Nigeria</span>
+        </div>
+      </div>
+      <div class="copy">© <span id="yr">2026</span> HAPPEE LASH EMPIRE. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <a class="fab" href="#" data-wa-general aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+      <path
+        d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8A13 13 0 0 0 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3Zm0 23.7c-2 0-3.9-.6-5.5-1.6l-.4-.2-4 1 1.1-3.9-.3-.4A10.7 10.7 0 1 1 16 26.7Zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-1.900-.9-3.100-1.700-4.300-3.700-.3-.5.3-.5.900-1.600.100-.200 0-.400 0-.500l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.200 1.100-1.200 2.800s1.200 3.300 1.400 3.500c.2.200 2.400 3.700 5.800 5.100 2.100.9 2.900.9 3.900.8.600-.1 1.900-.8 2.200-1.500.3-.8.3-1.400.2-1.500-.1-.1-.3-.2-.6-.4Z" />
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
